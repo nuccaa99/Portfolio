@@ -20,8 +20,6 @@ const Aboutme = () => {
                             using React.
                             In addition to my technical skills, I have problem-solving abilities and I
                             enjoy working on design. I am experienced with working with design tools such as Figma and Photoshop to create visually appealing and user-friendly web applications.
-                            I am excited to begin my career in front-end development and to continue learning
-                            and growing as a developer.
                         </p>
                     </div>
                     <br />
