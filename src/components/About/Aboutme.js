@@ -1,31 +1,46 @@
-import React from "react";
-import mypic from "./pics/pic.jpg"
+import React from 'react';
+import mypic from './pics/pic.jpg';
 
 const Aboutme = () => {
-    return (
-        <div className="about-me section" id="about-me">
-            <h2 className="title">About me.</h2>
-            <div className="content">
-                <div className="section-text">
-                    <div>
-                        <p className="section-text-name">Hi! My name is Nutsa.</p>
-                        <p className="section-text-info">
-                            I am a front-end developer with a passion for creating
-                            engaging and interactive web experiences.
-                            Throughout my learning journey I have gained a
-                            solid foundation in web development technologies such as HTML, CSS, JavaScript and React.
-                            I have worked on several personal projects to expand
-                            my skill set, including building responsive web pages,
-                            creating dynamic user interfaces and complex web applications
-                            using React.
-                            In addition to my technical skills, I have problem-solving abilities and I
-                            enjoy working on design. I am experienced with working with design tools such as Figma and Photoshop to create visually appealing and user-friendly web applications.
-                            I am excited to begin my career in front-end development and to continue learning
-                            and growing as a developer.
-                        </p>
-                    </div>
-                    <br />
-                    {/* <dl>
+  return (
+    <div className="about-me section" id="about-me">
+      <h2 className="title">About me.</h2>
+      <div className="content">
+        <div className="section-text">
+          <div>
+            <p className="section-text-name">Hi! My name is Nutsa.</p>
+            <ul className="section-text-content">
+              <li className="section-text-content-item">
+                <span>Front-End Developer:</span> Passionate about creating
+                engaging and interactive web experiences.
+              </li>
+              <li className="section-text-content-item">
+                <span>Skills: </span>Solid foundation in HTML, CSS, JavaScript,
+                and React.
+              </li>
+              <li className="section-text-content-item">
+                <span>Projects:</span> Developed various personal projects to
+                expand skills, including responsive web pages, dynamic user
+                interfaces, and complex web applications using React.
+              </li>
+              <li className="section-text-content-item">
+                <span>Design Proficiency:</span> Experienced in using Figma and
+                Photoshop for creating visually appealing and user-friendly web
+                applications.
+              </li>
+              <li className="section-text-content-item">
+                <span>Problem-Solving:</span> Strong problem-solving abilities
+                coupled with a focus on design aesthetics.
+              </li>
+              <li className="section-text-content-item">
+                <span>Career Goals:</span> Excited to embark on a career in
+                front-end development, eager to continue learning and growing as
+                a developer.
+              </li>
+            </ul>
+          </div>
+          <br />
+          {/* <dl>
                         <dt>Relevant coursework at University</dt>
                         <dd>Programming Methodologies / Web Development – JavaScript / SQL</dd>
                         <dt>Courses</dt>
@@ -46,12 +61,11 @@ const Aboutme = () => {
                         <dd>Library: React</dd>
                         <dd>Version Control: Git</dd>
                     </dl> */}
-                </div>
-                <img src={mypic} id="my-pic" alt="mypicture" />
-            </div>
         </div>
+        <img src={mypic} id="my-pic" alt="mypicture" />
+      </div>
+    </div>
+  );
+};
 
-    )
-}
-
-export default Aboutme; 
+export default Aboutme;
