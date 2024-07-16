@@ -2,6 +2,7 @@ import React from 'react';
 import mypic from './pics/pic.jpg';
 
 const Aboutme = () => {
+<<<<<<< HEAD
   return (
     <div className="about-me section" id="about-me">
       <h2 className="title">About me.</h2>
@@ -41,6 +42,30 @@ const Aboutme = () => {
           </div>
           <br />
           {/* <dl>
+=======
+    return (
+        <div className="about-me section" id="about-me">
+            <h2 className="title">About me.</h2>
+            <div className="content">
+                <div className="section-text">
+                    <div>
+                        <p className="section-text-name">Hi! My name is Nutsa.</p>
+                        <p className="section-text-info">
+                            I am a front-end developer with a passion for creating
+                            engaging and interactive web experiences.
+                            Throughout my learning journey I have gained a
+                            solid foundation in web development technologies such as HTML, CSS, JavaScript and React.
+                            I have worked on several personal projects to expand
+                            my skill set, including building responsive web pages,
+                            creating dynamic user interfaces and complex web applications
+                            using React.
+                            In addition to my technical skills, I have problem-solving abilities and I
+                            enjoy working on design. I am experienced with working with design tools such as Figma and Photoshop to create visually appealing and user-friendly web applications.
+                        </p>
+                    </div>
+                    <br />
+                    {/* <dl>
+>>>>>>> dcbd667a41d15d88c1f13972574962da098d963f
                         <dt>Relevant coursework at University</dt>
                         <dd>Programming Methodologies / Web Development – JavaScript / SQL</dd>
                         <dt>Courses</dt>
