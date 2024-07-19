@@ -12,7 +12,7 @@ const projectData = {
     {
       img: imdb,
       name: 'IMDb Top 100 Movies',
-      link: 'https://movieappweiben.netlify.app/',
+      link: 'https://github.com/nuccaa99/IMDb_top_100',
       desc: 'A movie application that showcases the top 100 movies based on IMDb ratings, developed using React and RapidAPI. The application key features include: User Authentication: Users can register and sign in to access the site content. State Management: Utilizes Context API for efficient state management.	Persistent Sessions: Users remain logged in until their token expires or they choose to log out. Detailed Movie Pages: Users can view detailed information about each movie on a separate page.',
       features: [
         'React',
@@ -34,7 +34,7 @@ const projectData = {
     {
       img: ecomm,
       name: 'E-commerce',
-      link: 'https://todolisttailwindcontextapi.netlify.app/',
+      link: 'https://github.com/nuccaa99/scandiweb-junior-developer-test',
       desc: 'An e-commerce website using GraphQL for data fetching. The app features a Product Listing Page (PLP) and a Product Description Page (PDP), allowing users to browse and view detailed product information. The Cart page and Cart overlay enable users to add, remove, and adjust product quantities from both the PLP and PDP. For products with various options, users can select attributes, which are then displayed in the cart. The app also supports currency changes. State management is efficiently handled using the Context API, ensuring seamless and consistent user experience.',
       features: [
         'React',
@@ -47,7 +47,7 @@ const projectData = {
     {
       img: photosweeft,
       name: 'Photo App',
-      link: 'https://todolisttailwindcontextapi.netlify.app/',
+      link: 'https://github.com/nuccaa99/react-task-sweeft',
       desc: 'A photo application that allows users to explore a vast collection of images sourced from Unsplash. The application includes a home page that displays 20 popular images. Users can search for specific images using the search bar, and the application features seamless browsing with infinite scroll. To optimize performance, the application caches search results locally using LocalStorage. The user experience is further enhanced by a modal component that displays detailed views of images. Additionally, the application includes a history page that shows previously searched images, allowing users to revisit past searches.',
       features: [
         'React',
