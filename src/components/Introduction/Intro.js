@@ -9,11 +9,10 @@ const Intro = () => {
           <h4>Hi, my name is</h4>
           <h3>Nutsa.</h3>
           <h5>I build things for the web.</h5>
-          <button className="cv button">
-            <a href={CV} target="_blank" rel="noreferrer">
-              CV
-            </a>
-          </button>
+
+          <a href={CV} target="_blank" rel="noreferrer">
+            <button className="cv button">CV</button>
+          </a>
         </div>
       </div>
       <div className="sidebar social_media">
