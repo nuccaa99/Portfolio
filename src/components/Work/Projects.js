@@ -1,44 +1,28 @@
-import React from "react";
-import projectData from "./data";
-import { nanoid } from "nanoid";
+import React from 'react';
+import projectData from './data';
+import { nanoid } from 'nanoid';
+import Project from './Project';
 
 const Projects = () => {
   return (
     <div>
-      <div className="my-work section" id="my-work">
-        <h2 className="title" id="work-title">
-          My work.
-        </h2>
-        <div className="projects-container">
+      <div className="my_work section" id="my-work">
+        <h2 className="title">My work.</h2>
+        <div className="projects_container">
           {projectData.projects.map((project) => {
-            return (
+            return <Project key={nanoid()} project={project} />;
+          })}
+          <div className="button_wrapper">
+            <button className="button">
               <a
-                key={nanoid()}
-                className="project-container"
-                href={project.link}
+                href="https://github.com/nuccaa99?tab=stars"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
-                  src={project.img}
-                  alt="project pic"
-                  className="project-pic"
-                ></img>
-                <div>
-                  <h5 className="project-name">{project.name}</h5>
-                  <p className="project-desc">{project.desc}</p>
-                </div>
+                See more
               </a>
-            );
-          })}
-          <a
-            href="https://github.com/nuccaa99?tab=stars"
-            target="_blank"
-            rel="noreferrer"
-            className="see-more button"
-          >
-            See more
-          </a>
+            </button>
+          </div>
         </div>
       </div>
     </div>
