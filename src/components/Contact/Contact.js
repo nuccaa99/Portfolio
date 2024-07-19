@@ -11,9 +11,10 @@ const Contact = () => {
             <br />
             My inbox is always open!
           </p>
-          <button className="button">
-            <a href="mailto:nutsa1999@gmail.com">Email me</a>
-          </button>
+
+          <a href="mailto:nutsa1999@gmail.com">
+            <button className="button">Email me</button>
+          </a>
         </div>
       </div>
 

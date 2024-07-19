@@ -13,15 +13,13 @@ const Projects = () => {
             return <Project key={nanoid()} project={project} />;
           })}
           <div className="button_wrapper">
-            <button className="button">
-              <a
-                href="https://github.com/nuccaa99?tab=stars"
-                target="_blank"
-                rel="noreferrer"
-              >
-                See more
-              </a>
-            </button>
+            <a
+              href="https://github.com/nuccaa99?tab=stars"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="button">See more</button>
+            </a>
           </div>
         </div>
       </div>
