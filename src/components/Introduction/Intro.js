@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../assets/Resume.pdf';
+import CV from '../../assets/CV.pdf';
 
 const Intro = () => {
   return (
@@ -10,7 +10,7 @@ const Intro = () => {
           <h3>Nutsa.</h3>
           <h5>I build things for the web.</h5>
           <button className="cv button">
-            <a href={resume} target="_blank" rel="noreferrer">
+            <a href={CV} target="_blank" rel="noreferrer">
               CV
             </a>
           </button>
