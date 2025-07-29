@@ -1,5 +1,4 @@
-import React from 'react';
-import mypic from '../../assets/About me/mypic.jpg';
+// import mypic from '../../assets/About me/mypic.jpg';
 
 const Aboutme = () => {
   return (
@@ -38,7 +37,7 @@ const Aboutme = () => {
             </li>
           </ul>
         </div>
-        <img src={mypic} className="my_pic" alt="mypicture" />
+        {/* <img src={mypic} className="my_pic" alt="mypicture" /> */}
       </div>
     </div>
   );

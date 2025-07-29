@@ -39,7 +39,7 @@ body {
 }
 
 .underline_animation:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -123,7 +123,7 @@ body {
   color: var(--background);
 }
 .button:before {
-  content: '';
+  content: "";
   height: calc(100% + 3px);
   position: absolute;
   right: -3px;
@@ -178,6 +178,10 @@ body {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   box-shadow: var(--additional) 10px -10px;
+  object-fit: cover;
+  object-position: center;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
 
 .my_pic:hover {
@@ -204,7 +208,8 @@ body {
 .section_content {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
+  padding-inline: 50px;
 }
 
 .section_text {
@@ -260,7 +265,7 @@ body {
 }
 
 .section_text_content_item > p:not(:first-child)::after {
-  content: '—';
+  content: "—";
   display: block;
   color: var(--additional-dark);
 }
